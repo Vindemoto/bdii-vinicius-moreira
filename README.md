@@ -16,10 +16,10 @@ create table -nome da tabela-
 
 varchar(1 - 255) = ocupa apenas os espaços a qual foi dado
 Exemplo{\
-nome varchar(15) not null
-Anteteguemon (12 letras)
-O nome tem 12 letras, os 3 espaços que sobraram vão ser apagados, economizando espaço
-}
+nome varchar(15) not null\
+Anteteguemon (12 letras)\
+O nome tem 12 letras, os 3 espaços que sobraram vão ser apagados, economizando espaço\
+}\
 
 char(1 - 255) = ocupa todos os espaços a qual foi dado
 Exemplo{
