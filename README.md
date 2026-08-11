@@ -2,16 +2,16 @@
 Banco de Dados II
 
 # comentarios
-/* comentarios de mais
+/* comentarios de mais\
 de uma linha */
 
-Criar banco de dados
+Criar banco de dados\
 create database -nome do banco de dados-
 
-Acessar um banco de dados
+Acessar um banco de dados\
 use -nome do banco de dados-
 
-Criar uma tabela
+Criar uma tabela\
 create table -nome da tabela-
 
 varchar(1 - 255) = ocupa apenas os espaços a qual foi dado\
@@ -30,8 +30,8 @@ O nome tem 4 letras, os 26 espaços que sobraram vão continuar ocupando espaço
 
 decimal(max - 15,13)
 
-Verificar a estrutura de uma tabela
+Verificar a estrutura de uma tabela\
 desc -nome da tabela-
 
-Conjuntos dql
+Conjuntos dql\
 select -campos- from -tabela-
