@@ -6,16 +6,16 @@ Banco de Dados II
 de uma linha */
 
 Criar banco de dados
-create database <nome do banco de dados>
+create database -nome do banco de dados-
 
 Acessar um banco de dados
-use <nome do banco de dados>
+use -nome do banco de dados-
 
 Criar uma tabela
-create table <nome da tabela>
+create table -nome da tabela-
 
 varchar(1 - 255) = ocupa apenas os espaços a qual foi dado
-Exemplo{
+Exemplo{\
 nome varchar(15) not null
 Anteteguemon (12 letras)
 O nome tem 12 letras, os 3 espaços que sobraram vão ser apagados, economizando espaço
@@ -29,3 +29,9 @@ O nome tem 4 letras, os 26 espaços que sobraram vão continuar ocupando espaço
 }
 
 decimal(max - 15,13)
+
+Verificar a estrutura de uma tabela
+desc -nome da tabela-
+
+Conjuntos dql
+select -campos- from -tabela-
