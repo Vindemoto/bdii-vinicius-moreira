@@ -35,3 +35,6 @@ desc -nome da tabela-
 
 Conjuntos dql\
 select -campos- from -tabela-
+
+#INSERT INTO\
+insert into -nome da tabela- values -dados-
