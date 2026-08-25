@@ -38,3 +38,15 @@ select (campos) from (tabela)
 
 #INSERT INTO\
 insert into (nome da tabela) values (dados)
+
+#INSERÇÃO POR LINHA\
+inserto into (nome da tabela) values\
+INSERT INTO cad VALUES(1, 'Marcos', 'rh', 'analista', 2, 2184.33);\
+INSERT INTO cad VALUES(2, 'Andre', 'rh', null, 3, 2184.33);\
+INSERT INTO cad VALUES(3, 'Roberto', 'dp', 'analista', 0, 2000.00);\
+
+#INSERÇÃO POR LOTE\
+insert into (nome da tabela) values\
+(4, 'Carlos', 'ti', 'analista', 2, 2000.00),\
+(5, 'Amaral', 'ti', 'DBA', 0, 5000.00),\
+(6, 'Souza', 'ti', 'DBA', 1, 5000.00);
