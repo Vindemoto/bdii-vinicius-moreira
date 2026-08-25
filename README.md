@@ -1,18 +1,18 @@
 # bdii-vinicius-moreira
 Banco de Dados II
 
-# comentarios
+#comentarios
 /* comentarios de mais\
 de uma linha */
 
-Criar banco de dados\
-create database -nome do banco de dados-
+#CRIAR BANCO DE DADOS\
+create database (nome do banco de dados)
 
-Acessar um banco de dados\
-use -nome do banco de dados-
+#ACESSAR UM BANCO DE DADOS\
+use (nome do banco de dados)
 
-Criar uma tabela\
-create table -nome da tabela-
+#CRIAR UMA TABELA\
+create table (nome da tabela)
 
 varchar(1 - 255) = ocupa apenas os espaços a qual foi dado\
 Exemplo{\
@@ -30,11 +30,11 @@ O nome tem 4 letras, os 26 espaços que sobraram vão continuar ocupando espaço
 
 decimal(max - 15,13)
 
-Verificar a estrutura de uma tabela\
-desc -nome da tabela-
+#VERIFICAR A ESTRUTURA DE UMA TABELA\
+desc (nome da tabela)
 
 Conjuntos dql\
-select -campos- from -tabela-
+select (campos) from (tabela)
 
 #INSERT INTO\
-insert into -nome da tabela- values -dados-
+insert into (nome da tabela) values (dados)
