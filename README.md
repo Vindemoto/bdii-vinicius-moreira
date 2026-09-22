@@ -50,3 +50,10 @@ insert into (nome da tabela) values\
 (4, 'Carlos', 'ti', 'analista', 2, 2000.00),\
 (5, 'Amaral', 'ti', 'DBA', 0, 5000.00),\
 (6, 'Souza', 'ti', 'DBA', 1, 5000.00);
+
+#DESATIVAR SAFE UPDATE
+/* Desativar esse modo permite o uso do UPDATE e do DELETE*/\
+>Edit
+>Preferences...
+>SQL Editor
+>Desmarcar Safe Updates
