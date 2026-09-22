@@ -52,7 +52,7 @@ insert into (nome da tabela) values\
 (6, 'Souza', 'ti', 'DBA', 1, 5000.00);
 
 #DESATIVAR SAFE UPDATE\
-/* Desativar esse modo permite o uso do UPDATE e do DELETE*/\
+/* Desativar esse modo permite o uso do UPDATE e do DELETE*/
 >Edit\
 >Preferences...\
 >SQL Editor\
